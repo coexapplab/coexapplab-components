@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Coex.AppLab.Components.WindowsStore.Controls")]
-[assembly: AssemblyDescription("A collection of controls and helpers that I use to develop mock Windows Store apps")]
+[assembly: AssemblyDescription("A collection of controls and helpers used to develop sample Windows Store apps.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Microsoft - Center of Expertise")]
 [assembly: AssemblyProduct("Coex.AppLab.Components.WindowsStore.Controls")]
