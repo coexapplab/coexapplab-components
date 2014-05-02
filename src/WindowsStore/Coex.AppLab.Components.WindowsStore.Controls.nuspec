@@ -2,7 +2,7 @@
 <package >
 	<metadata>
 		<id>Coex.AppLab.Components.WindowsStore.Controls</id>
-		<version>0.0.0.0</version>  
+		<version>%version%</version>  
 		<title>Coex.AppLab.Components.WindowsStore.Controls</title>
 		<authors>Microsoft - Center of Expertise</authors>
 		<owners>Microsoft - Center of Expertise</owners>

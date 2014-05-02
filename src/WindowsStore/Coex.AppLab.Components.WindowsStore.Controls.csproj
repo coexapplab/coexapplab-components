@@ -139,6 +139,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Coex.AppLab.Components.WindowsStore.Controls.nuspec" />
+    <None Include="MyGet.bat" />
     <None Include="packages.config" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '12.0' ">
