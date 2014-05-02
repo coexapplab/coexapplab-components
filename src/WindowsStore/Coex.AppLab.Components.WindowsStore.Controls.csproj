@@ -133,9 +133,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Assets\ad-en.png" />
-    <Content Include="Assets\orgaccount.png" />
-    <Content Include="Assets\walogo.png" />
+    <Content Include="Assets\Coex.AppLab\ad-en.png" />
+    <Content Include="Assets\Coex.AppLab\orgaccount.png" />
+    <Content Include="Assets\Coex.AppLab\walogo.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Coex.AppLab.Components.WindowsStore.Controls.nuspec" />

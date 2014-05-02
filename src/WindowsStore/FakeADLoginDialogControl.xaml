@@ -11,7 +11,7 @@
      DataContext="{Binding RelativeSource={RelativeSource Mode=Self}}"
     RequestedTheme="Light">
 
-    <Grid VerticalAlignment="Stretch" Background="White" Width="800" Height="400">
+    <Grid VerticalAlignment="Stretch" Background="White" MinWidth="800" Height="400">
         <StackPanel x:Name="State1" HorizontalAlignment="Center" VerticalAlignment="Center">
             <TextBlock Text="Please wait" HorizontalAlignment="Center" Style="{StaticResource SubheaderTextBlockStyle}"/>
             <ProgressRing  VerticalAlignment="Center" HorizontalAlignment="Center" Width="25" Height="25" IsActive="True" Margin="0,12,0,0" Foreground="#FF17B44B" />
@@ -21,9 +21,9 @@
                 <ColumnDefinition Width="1.5*"/>
                 <ColumnDefinition Width="1*"/>
             </Grid.ColumnDefinitions>
-            <Image Source="Assets/ad-en.png" Stretch="UniformToFill"/>
+            <Image Source="Assets/Coex.AppLab/ad-en.png" Stretch="UniformToFill"/>
             <StackPanel  Margin="40" Grid.Column="1">
-                <Image Source="Assets/walogo.png" Width="150" HorizontalAlignment="Left"/>
+                <Image Source="Assets/Coex.AppLab/walogo.png" Width="150" HorizontalAlignment="Left"/>
                 <TextBlock Margin="0,20,0,0" Style="{StaticResource BodyTextBlockStyle}">Login with your organizational account.</TextBlock>
                 <TextBox PlaceholderText="someone@example.com" Margin="0,20,0,0"/>
                 <PasswordBox PlaceholderText="password" Margin="0,10,0,0"/>
@@ -32,7 +32,7 @@
                     <ProgressRing x:Name="loginProgress" Height="20" Width="20" Foreground="#FF055DE2"/>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal" Margin="0,50,0,0">
-                    <Image Width="30" Height="30" Source="Assets/orgaccount.png" VerticalAlignment="Center" Stretch="Uniform"/>
+                    <Image Width="30" Height="30" Source="Assets/Coex.AppLab/orgaccount.png" VerticalAlignment="Center" Stretch="Uniform"/>
                     <TextBlock TextWrapping="WrapWholeWords" Width="200" Foreground="#FFB7B7B7" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="5,0,0,0">Organizational accounts that work here can be used anywhere you see this icon. © 2014 Microsoft</TextBlock>
                 </StackPanel>
             </StackPanel>
