@@ -1,4 +1,2 @@
-component-library
-=================
-
-Shared component library
+coexapplab-components
+=====================

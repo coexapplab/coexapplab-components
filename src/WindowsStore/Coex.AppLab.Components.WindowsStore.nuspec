@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package >
+	<metadata>
+		<id>$id$</id>
+		<version>$version$</version>
+		<title>$title$</title>
+		<authors>$author$</authors>
+		<owners>$author$</owners>
+		<projectUrl>https://github.com/coexapplab/coexapplab-components</projectUrl>
+		<iconUrl>https://avatars0.githubusercontent.com/u/7452033?s=140</iconUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>$description$</description>
+		<copyright>Copyright 2014</copyright>
+		<tags>CoEx</tags>
+	</metadata>
+	<files>
+		<file src="bin\Release\**\*.*" target="..\..\lib\win81" /> 
+	</files>
+</package>

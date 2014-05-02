@@ -1,0 +1,21 @@
+﻿<UserControl
+    x:Class="TestProject.MyUserControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TestProject"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="300"
+    d:DesignWidth="400">
+    
+    <StackPanel>
+        <TextBlock Style="{StaticResource TitleTextBlockStyle}">This is a user control that has some stuff.</TextBlock>
+        <TextBlock Style="{StaticResource SubtitleTextBlockStyle}">It will be displayed in a Dialog.</TextBlock>
+        <ComboBox Margin="0,12,0,0">
+            <ComboBoxItem Content="ComboBoxItem1" Height="100" Width="100"/>
+            <ComboBoxItem Content="ComboBoxItem2" Height="100" Width="100"/>
+            <ComboBoxItem Content="ComboBoxItem3" Height="100" Width="100"/>
+        </ComboBox>
+    </StackPanel>
+</UserControl>
