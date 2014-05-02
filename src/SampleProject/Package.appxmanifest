@@ -6,7 +6,7 @@
             Version="1.0.0.0" />
 
   <Properties>
-    <DisplayName>TestProject</DisplayName>
+    <DisplayName>Coex.AppLab.Components.WindowsStore.SampleProject</DisplayName>
     <PublisherDisplayName>v-ahsab</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
@@ -23,12 +23,12 @@
   <Applications>
     <Application Id="App"
         Executable="$targetnametoken$.exe"
-        EntryPoint="TestProject.App">
+        EntryPoint="Coex.AppLab.Components.WindowsStore.SampleProject.App">
         <m2:VisualElements
-            DisplayName="TestProject"
+            DisplayName="Coex.AppLab.Components.WindowsStore.SampleProject"
             Square150x150Logo="Assets\Logo.png"
             Square30x30Logo="Assets\SmallLogo.png"
-            Description="TestProject"
+            Description="Coex.AppLab.Components.WindowsStore.SampleProject"
             ForegroundText="light"
             BackgroundColor="#464646">
             <m2:SplashScreen Image="Assets\SplashScreen.png" />

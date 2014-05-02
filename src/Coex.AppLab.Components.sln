@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30324.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coex.AppLab.Components.WindowsStore", "WindowsStore\Coex.AppLab.Components.WindowsStore.csproj", "{9CB14F92-1BF2-4466-A9A7-BFDC0C6E7206}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coex.AppLab.Components.WindowsStore.Controls", "WindowsStore\Coex.AppLab.Components.WindowsStore.Controls.csproj", "{9CB14F92-1BF2-4466-A9A7-BFDC0C6E7206}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{9794ADEA-A6BC-43E8-A12E-C45465F9E933}"
 	ProjectSection(SolutionItems) = preProject
@@ -12,7 +12,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{9794AD
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleProject", "SampleProject\SampleProject.csproj", "{E6680D48-35E2-42DF-AE56-74F613B765A0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coex.AppLab.Components.WindowsStore.SampleProject", "SampleProject\Coex.AppLab.Components.WindowsStore.SampleProject.csproj", "{E6680D48-35E2-42DF-AE56-74F613B765A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{DAC17CC2-7DCA-4542-8A1C-E954AC5F18AD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WindowsStore", "WindowsStore", "{8FB228B4-94A8-4E2E-82A7-7C21B444621F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Controls", "Controls", "{44272D1E-B1FD-4449-8AC9-C06A899F8838}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,5 +75,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9CB14F92-1BF2-4466-A9A7-BFDC0C6E7206} = {44272D1E-B1FD-4449-8AC9-C06A899F8838}
+		{E6680D48-35E2-42DF-AE56-74F613B765A0} = {DAC17CC2-7DCA-4542-8A1C-E954AC5F18AD}
+		{DAC17CC2-7DCA-4542-8A1C-E954AC5F18AD} = {8FB228B4-94A8-4E2E-82A7-7C21B444621F}
+		{44272D1E-B1FD-4449-8AC9-C06A899F8838} = {8FB228B4-94A8-4E2E-82A7-7C21B444621F}
 	EndGlobalSection
 EndGlobal

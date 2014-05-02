@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("SampleProject")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("Coex.AppLab.Components.WindowsStore.Controls.SampleProject")]
+[assembly: AssemblyDescription("Sample project for demonstrating the controls.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("SampleProject")]
+[assembly: AssemblyCompany("Microsoft - Center of Expertise")]
+[assembly: AssemblyProduct("Coex.AppLab.Components.WindowsStore.Controls.SampleProject")]
 [assembly: AssemblyCopyright("Copyright ©  2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

@@ -1,4 +1,4 @@
-﻿using Coex.AppLab.Components.WindowsStore;
+﻿using Coex.AppLab.Components.WindowsStore.Controls;
 using System;
 using System.Collections.Generic;
 using System.Linq;

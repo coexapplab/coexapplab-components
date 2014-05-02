@@ -15,7 +15,7 @@ using Windows.UI.Xaml.Controls.Primitives;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 
-namespace Coex.AppLab.Components.WindowsStore
+namespace Coex.AppLab.Components.WindowsStore.Controls
 {
     public class CustomDialog : IDisposable
     {

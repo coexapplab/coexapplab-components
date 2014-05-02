@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package >
+	<metadata>
+		<id>$id$</id>
+		<version>$version$</version>
+		<title>Coex.AppLab.Components.WindowsStore.Controls</title>
+		<authors>Microsoft - Center of Expertise</authors>
+		<owners>Microsoft - Center of Expertise</owners>
+		<projectUrl>https://github.com/coexapplab/coexapplab-components</projectUrl>
+		<iconUrl>https://avatars0.githubusercontent.com/u/7452033?s=140</iconUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>A collection of controls and helpers used to develop sample Windows Store apps.</description>
+		<copyright>Copyright 2014</copyright>
+		<tags>CoEx</tags>
+	</metadata>
+	<files>
+		<file src="bin\$configuration$\**\*.pdb" target="..\..\lib\win81" />
+    <file src="bin\$configuration$\**\*.pri" target="..\..\lib\win81" />
+    <file src="bin\$configuration$\**\*.xbf" target="..\..\lib\win81\$projectname$" />
+  </files>
+</package>
