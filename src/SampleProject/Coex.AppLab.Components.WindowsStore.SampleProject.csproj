@@ -120,6 +120,7 @@
       <SubType>Designer</SubType>
     </AppxManifest>
     <None Include="Coex.AppLab.Components.WindowsStore.SampleProject.nuspec" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\Coex.AppLab\ad-en.png" />
@@ -145,10 +146,10 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\WindowsStore\Coex.AppLab.Components.WindowsStore.Controls.csproj">
-      <Project>{9cb14f92-1bf2-4466-a9a7-bfdc0c6e7206}</Project>
-      <Name>Coex.AppLab.Components.WindowsStore.Controls</Name>
-    </ProjectReference>
+    <Reference Include="Coex.AppLab.Components.WindowsStore.Controls, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Coex.AppLab.Components.WindowsStore.Controls.1.0.0-CI00000\lib\win81\Coex.AppLab.Components.WindowsStore.Controls.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '12.0' ">
     <VisualStudioVersion>12.0</VisualStudioVersion>

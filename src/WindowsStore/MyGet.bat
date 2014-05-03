@@ -8,12 +8,16 @@ if "%nuget%" == "" (
    set nuget=NuGet.exe
 )
 
-set version=
+set version=-Version 1.0.0
 if not "%PackageVersion%" == "" (
    set version=-Version %PackageVersion%
 )
+@echo %version%
 
-set projectpath=src\WindowsStore
+set projectpath=.
+if "%BuildRunner%" == "MyGet" (
+	set projectpath=src\WindowsStore
+)
 set projectname=Coex.AppLab.Components.WindowsStore.Controls
 
 @echo ***************************************************************
