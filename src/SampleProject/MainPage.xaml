@@ -10,9 +10,9 @@
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-            <Button Click="Button_Click">Show Fake Active Directory</Button>
-            <Button Click="Button_Click_1">Show Fake Progress Bar</Button>
-            <Button Click="Button_Click_2">Show User Control in Dialog</Button>
+            <Button Click="FakeADButton_Click">Show Fake Active Directory</Button>
+            <Button Click="FakeProgressButton_Click">Show Fake Progress Bar</Button>
+            <Button Click="UserControlDialogButton_Click">Show User Control in Dialog</Button>
             <TextBlock Style="{StaticResource TitleTextBlockStyle}">Sign below</TextBlock>
             <Border Height="125" Width="300" BorderThickness="2">
                 <Border.BorderBrush>

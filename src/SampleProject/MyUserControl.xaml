@@ -7,15 +7,12 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     d:DesignHeight="300"
-    d:DesignWidth="400">
+    d:DesignWidth="400"
+    DataContext="{Binding RelativeSource={RelativeSource Mode=Self}}">
     
     <StackPanel>
         <TextBlock Style="{StaticResource TitleTextBlockStyle}">This is a user control that has some stuff.</TextBlock>
         <TextBlock Style="{StaticResource SubtitleTextBlockStyle}">It will be displayed in a Dialog.</TextBlock>
-        <ComboBox Margin="0,12,0,0">
-            <ComboBoxItem Content="ComboBoxItem1" Height="100" Width="100"/>
-            <ComboBoxItem Content="ComboBoxItem2" Height="100" Width="100"/>
-            <ComboBoxItem Content="ComboBoxItem3" Height="100" Width="100"/>
-        </ComboBox>
+        <TextBox Header="DataBoundProperty" Text="{Binding DataBoundProperty, Mode=TwoWay}" Margin="0,24,0,0"/>
     </StackPanel>
 </UserControl>

@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Coex.AppLab.Components.WindowsStore.Controls;
+
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -17,8 +19,26 @@ using Windows.UI.Xaml.Navigation;
 
 namespace Coex.AppLab.Components.WindowsStore.SampleProject
 {
+    // Any user control that is to be popped has to extend PopupBase
     public sealed partial class MyUserControl : UserControl
     {
+        /// <summary>
+        /// Any databound property (you can have it two-way binded)
+        /// Important:
+        /// You need to set the DataContext on the UserControl like so
+        /// DataContext="{Binding RelativeSource={RelativeSource Mode=Self}}">
+        /// </summary>
+        public string DataBoundProperty
+        {
+            get { return (string)GetValue(DataBoundPropertyyProperty); }
+            set { SetValue(DataBoundPropertyyProperty, value); }
+        }
+
+        // Using a DependencyProperty as the backing store for DataBoundPropertyy.  This enables animation, styling, binding, etc...
+        public static readonly DependencyProperty DataBoundPropertyyProperty =
+            DependencyProperty.Register("DataBoundProperty", typeof(string), typeof(MyUserControl), new PropertyMetadata(""));
+
+        
         public MyUserControl()
         {
             this.InitializeComponent();

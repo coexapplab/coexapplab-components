@@ -13,12 +13,18 @@ if not "%PackageVersion%" == "" (
    set version=-Version %PackageVersion%
 )
 
+set projectpath=.\
+if not "%SourcesPath%" == "" (
+   set projectpath="%SourcesPath%"
+)
+
+
 set projectname=Coex.AppLab.Components.WindowsStore.Controls
 
 @echo ***************************************************************
-@echo * Build %projectname% 	        *
+@echo * Build %projectname% in %projectpath%					    *
 @echo ***************************************************************
-%WINDIR%\Microsoft.NET\Framework\v4.0.30319\msbuild  .\%projectname%.csproj /verbosity:minimal /fl /t:Rebuild /p:Configuration=%config%,OutputPath=bin\%config%\ /property:GenerateLibraryLayout=false /p:NoWarn=0618
+%WINDIR%\Microsoft.NET\Framework\v4.0.30319\msbuild  %projectpath%\%projectname%.csproj /verbosity:minimal /fl /t:Rebuild /p:Configuration=%config%,OutputPath=bin\%config%\ /property:GenerateLibraryLayout=false /p:NoWarn=0618
 
 @echo ***************************************************************
 @echo * Copying files for NuGet structure               	        *
@@ -27,13 +33,13 @@ mkdir NuGet\%projectname%\lib\win81
 mkdir NuGet\%projectname%\lib\win81\%projectname%
 mkdir NuGet\%projectname%\lib\win81\%projectname%\Assets
 
-xcopy /y .\%projectname%.nuspec NuGet\%projectname%
-xcopy /y .\bin\%config%\*.dll NuGet\%projectname%\lib\win81 
-xcopy /y .\bin\%config%\*.pdb NuGet\%projectname%\lib\win81 
-xcopy /y .\bin\%config%\*.dll NuGet\%projectname%\lib\win81 
-xcopy /y .\bin\%config%\*.xr.xml NuGet\%projectname%\lib\win81 
-xcopy /y .\bin\%config%\*.xbf NuGet\%projectname%\lib\win81\%projectname%
-xcopy /ye .\Assets\* NuGet\%projectname%\lib\win81\%projectname%\Assets\
+xcopy /y %projectpath%\%projectname%.nuspec NuGet\%projectname%
+xcopy /y %projectpath%\bin\%config%\*.dll NuGet\%projectname%\lib\win81 
+xcopy /y %projectpath%\bin\%config%\*.pdb NuGet\%projectname%\lib\win81 
+xcopy /y %projectpath%\bin\%config%\*.dll NuGet\%projectname%\lib\win81 
+xcopy /y %projectpath%\bin\%config%\*.xr.xml NuGet\%projectname%\lib\win81 
+xcopy /y %projectpath%\bin\%config%\*.xbf NuGet\%projectname%\lib\win81\%projectname%
+xcopy /ye %projectpath%\Assets\* NuGet\%projectname%\lib\win81\%projectname%\Assets\
 
 @echo *******************************************
 @echo * BUILDING NUGET PACKAGE					*
