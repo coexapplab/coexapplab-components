@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package >
 	<metadata>
-		<id>$id$</id>
+		<id>Coex.AppLab.Components.WindowsStore.Controls</id>
 		<version>$version$</version>  
-		<title>$id$</title>
+		<title>Coex.AppLab.Components.WindowsStore.Controls</title>
 		<authors>Microsoft - Center of Expertise</authors>
 		<owners>Microsoft - Center of Expertise</owners>
 		<projectUrl>https://github.com/coexapplab/coexapplab-components</projectUrl>
@@ -13,12 +13,4 @@
 		<copyright>Copyright 2014</copyright>
 		<tags>CoEx</tags>
 	</metadata>
-	<files>
-		<file src="bin\$configuration$\*.pdb" target="..\..\lib\win81" />
-	    <file src="bin\$configuration$\*.pri" target="..\..\lib\win81" />
-	    <file src="bin\$configuration$\*.xr.xml" target="..\..\lib\win81" />
-	    <file src="bin\$configuration$\**\*.xbf" target="..\..\lib\win81" />
-	    <!--<file src="bin\$configuration$\**\*.xbf" target="..\..\lib\win81\$projectname$" />-->
-	    <!--<file src="Assets\**\*.*" target="..\..\lib\win81\$projectname$\Assets" />-->
-  </files>
 </package>

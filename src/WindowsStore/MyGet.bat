@@ -35,7 +35,7 @@ mkdir NuGet\%projectname%\lib\win81\%projectname%\Assets
 xcopy /y %projectpath%\%projectname%.nuspec NuGet\%projectname%
 xcopy /y %projectpath%\bin\%config%\*.dll NuGet\%projectname%\lib\win81 
 xcopy /y %projectpath%\bin\%config%\*.pdb NuGet\%projectname%\lib\win81 
-xcopy /y %projectpath%\bin\%config%\*.dll NuGet\%projectname%\lib\win81 
+xcopy /y %projectpath%\bin\%config%\*.pri NuGet\%projectname%\lib\win81 
 xcopy /y %projectpath%\bin\%config%\*.xr.xml NuGet\%projectname%\lib\win81 
 xcopy /y %projectpath%\bin\%config%\*.xbf NuGet\%projectname%\lib\win81\%projectname%
 xcopy /ye %projectpath%\Assets\* NuGet\%projectname%\lib\win81\%projectname%\Assets\

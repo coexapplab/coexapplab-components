@@ -148,9 +148,8 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="Coex.AppLab.Components.WindowsStore.Controls, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Coex.AppLab.Components.WindowsStore.Controls.1.0.0-CI00003\lib\win81\Coex.AppLab.Components.WindowsStore.Controls.dll</HintPath>
+    <Reference Include="Coex.AppLab.Components.WindowsStore.Controls">
+      <HintPath>..\packages\Coex.AppLab.Components.WindowsStore.Controls.1.0.0-CI00004\lib\win81\Coex.AppLab.Components.WindowsStore.Controls.dll</HintPath>
     </Reference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '12.0' ">
