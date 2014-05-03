@@ -125,6 +125,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\Coex.AppLab\ad-en.png" />
+    <Content Include="Assets\Coex.AppLab\orgaccount.png" />
+    <Content Include="Assets\Coex.AppLab\walogo.png" />
     <Content Include="Assets\Logo.scale-100.png" />
     <Content Include="Assets\SmallLogo.scale-100.png" />
     <Content Include="Assets\SplashScreen.scale-100.png" />
@@ -147,7 +150,7 @@
   <ItemGroup>
     <Reference Include="Coex.AppLab.Components.WindowsStore.Controls, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Coex.AppLab.Components.WindowsStore.Controls.1.0.0-CI00001\lib\win81\Coex.AppLab.Components.WindowsStore.Controls.dll</HintPath>
+      <HintPath>..\packages\Coex.AppLab.Components.WindowsStore.Controls.1.0.0-CI00003\lib\win81\Coex.AppLab.Components.WindowsStore.Controls.dll</HintPath>
     </Reference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '12.0' ">
