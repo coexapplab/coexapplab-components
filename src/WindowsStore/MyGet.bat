@@ -13,12 +13,7 @@ if not "%PackageVersion%" == "" (
    set version=-Version %PackageVersion%
 )
 
-set projectpath=.\
-if not "%SourcesPath%" == "" (
-   set projectpath="%SourcesPath%"
-)
-
-
+set projectpath=src\WindowsStore
 set projectname=Coex.AppLab.Components.WindowsStore.Controls
 
 @echo ***************************************************************
