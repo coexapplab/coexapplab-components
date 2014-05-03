@@ -14,9 +14,10 @@
     <MinimumVisualStudioVersion>12</MinimumVisualStudioVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{BC8A1FFA-BEE3-4634-8014-F334798102B3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <PackageCertificateKeyFile>TestProject_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <PackageCertificateKeyFile>Coex.AppLab.Components.WindowsStore.SampleProject_TemporaryKey.pfx</PackageCertificateKeyFile>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
     <RestorePackages>true</RestorePackages>
+    <PackageCertificateThumbprint>8EB908D5255E30C1299C9AC0C1107CE2AD79434D</PackageCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -120,12 +121,10 @@
       <SubType>Designer</SubType>
     </AppxManifest>
     <None Include="Coex.AppLab.Components.WindowsStore.SampleProject.nuspec" />
+    <None Include="Coex.AppLab.Components.WindowsStore.SampleProject_TemporaryKey.pfx" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Assets\Coex.AppLab\ad-en.png" />
-    <Content Include="Assets\Coex.AppLab\orgaccount.png" />
-    <Content Include="Assets\Coex.AppLab\walogo.png" />
     <Content Include="Assets\Logo.scale-100.png" />
     <Content Include="Assets\SmallLogo.scale-100.png" />
     <Content Include="Assets\SplashScreen.scale-100.png" />
@@ -148,7 +147,7 @@
   <ItemGroup>
     <Reference Include="Coex.AppLab.Components.WindowsStore.Controls, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Coex.AppLab.Components.WindowsStore.Controls.1.0.0-CI00000\lib\win81\Coex.AppLab.Components.WindowsStore.Controls.dll</HintPath>
+      <HintPath>..\packages\Coex.AppLab.Components.WindowsStore.Controls.1.0.0-CI00001\lib\win81\Coex.AppLab.Components.WindowsStore.Controls.dll</HintPath>
     </Reference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '12.0' ">

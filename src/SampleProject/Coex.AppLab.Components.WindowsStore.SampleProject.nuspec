@@ -1,16 +1,23 @@
 <?xml version="1.0"?>
 <package >
-	<metadata>
-		<id>Coex.AppLab.Components.WindowsStore.SampleProject</id>
-		<version>$version$</version>
-		<title>Coex.AppLab.Components.WindowsStore.SampleProject</title>
-		<authors>Microsoft - Center of Expertise</authors>
-		<owners>Microsoft - Center of Expertise</owners>
-		<projectUrl>https://github.com/coexapplab/coexapplab-components</projectUrl>
-		<iconUrl>https://avatars0.githubusercontent.com/u/7452033?s=140</iconUrl>
-		<requireLicenseAcceptance>false</requireLicenseAcceptance>
-		<description>Sample project for Coex.AppLab.Components.WindowsStore.Controls</description>
-		<copyright>Copyright 2014</copyright>
-		<tags>CoEx</tags>
-	</metadata>
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$id$</title>
+    <authors>Microsoft - Center of Expertise</authors>
+    <owners>Microsoft - Center of Expertise</owners>
+    <projectUrl>https://github.com/coexapplab/coexapplab-components</projectUrl>
+    <iconUrl>https://avatars0.githubusercontent.com/u/7452033?s=140</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Sample project for Coex.AppLab.Components.WindowsStore.Controls</description>
+    <copyright>Copyright 2014</copyright>
+    <tags>CoEx</tags>
+  </metadata>
+  <files>
+    <file src="bin\$configuration$\*.pdb" target="..\..\lib\win81" />
+    <file src="bin\$configuration$\*.pri" target="..\..\lib\win81" />
+    <file src="bin\$configuration$\*.xr.xml" target="..\..\lib\win81" />
+    <file src="bin\$configuration$\**\*.xbf" target="..\..\lib\win81\$projectname$" />
+    <!--<file src="Assets\**\*.*" target="..\..\lib\win81\$projectname$\Assets" />-->
+  </files>
 </package>

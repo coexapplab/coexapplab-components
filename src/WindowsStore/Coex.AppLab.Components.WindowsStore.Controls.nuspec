@@ -14,9 +14,9 @@
 		<tags>CoEx</tags>
 	</metadata>
 	<files>
-		<file src="bin\$configuration$\$id$.pdb" target="..\..\lib\win81" />
-	    <file src="bin\$configuration$\$id$.pri" target="..\..\lib\win81" />
-	    <file src="bin\$configuration$\$id$.xr.xml" target="..\..\lib\win81" />
+		<file src="bin\$configuration$\*.pdb" target="..\..\lib\win81" />
+	    <file src="bin\$configuration$\*.pri" target="..\..\lib\win81" />
+	    <file src="bin\$configuration$\*.xr.xml" target="..\..\lib\win81" />
 	    <file src="bin\$configuration$\**\*.xbf" target="..\..\lib\win81\$projectname$" />
 	    <!--<file src="Assets\**\*.*" target="..\..\lib\win81\$projectname$\Assets" />-->
   </files>
